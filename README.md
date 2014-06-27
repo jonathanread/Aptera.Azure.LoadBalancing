@@ -21,3 +21,5 @@ protected void Bootstrapper_Initialized(object sender, ExecutedEventArgs e)
 	}
 }
 
+///***** Disclaimer *****//
+**This should work in early version in fact we have it running in sitefinity 6.1 and SDK 1.8
