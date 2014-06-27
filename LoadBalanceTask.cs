@@ -9,7 +9,7 @@ namespace Aptera.Azure.LoadBalancing
 {
     public class LoadBalanceTask : ScheduledTask
     {
-	   public const string GuidKey = "Aptera.Azure.LoadBalancing.LoadBalanceTask.MaintainLoadBalancingUrlsTask";
+	   public const string GuidKey = "Aptera.Azure.LoadBalancing.LoadBalanceTask";
  
 	   public LoadBalanceTask()
 	   {
@@ -35,7 +35,7 @@ namespace Aptera.Azure.LoadBalancing
 	   {
 		  get
 		  {
-			 return "Aptera.Azure.LoadBalancing.LoadBalanceTask.MaintainLoadBalancingUrlsTask, Aptera.Azure.LoadBalancing";
+			 return "Aptera.Azure.LoadBalancing.LoadBalanceTask, Aptera.Azure.LoadBalancing";
 		  }
 	   }
     }
